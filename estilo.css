@@ -1,6 +1,6 @@
 
 body {
-    background-color: #fff;
+    background-color: rgb(255, 253, 253);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
@@ -14,8 +14,13 @@ body {
     color: #fff;
 }
 
-
 #telejornal{
+    width: 100%;
+    margin-left: 20;
+    margin-bottom: 10px;
+}
+
+#card{
     width: 100%;
     margin-left: 20;
     margin-bottom: 10px;
@@ -23,7 +28,7 @@ body {
 
 #navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 30px;
     width: 100%;
 }
@@ -38,25 +43,10 @@ nav a{
     box-shadow: black 2px 2px 5px;
 }
 
-
-.abas{
-    background: white;
-    padding: 10px;
-    display: none;
-}
-
-
-
 :target{
     display: block;
 }
 
-#conteudo{
-    background-color: rgb(250, 245, 245);
-    margin-left: 1%;
-    margin-right: 1%;
-    padding: 1%;;
-}
 
 #Home{
     justify-content: space-between;
@@ -91,17 +81,70 @@ h1{
     text-decoration-color: white;
 }
 
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 30px 50px 30px;
+    border-color: 3px solid black;  
+    background-color: brown;
+    box-shadow: black 2px 2px 5px;
+}
+
 .linkedin{
-    width: 3%;
+    width: 7%;
     margin-right: 10px;
 
 }
 
 .linke{
     color: blue;
-    margin-bottom: 50px;
-    text-align: justify;
-    font-size: 15px;
+    margin-bottom: 25px;
+    font-size: 13px;
+    text-decoration: unset;
+}
+
+p{
+text-align: justify;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pagina1{
+    background: rgb(253, 253, 253);
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1%;
+    margin-bottom: 10px;
+    border: silver 1px solid;
+}
+
+#pagina2{
+    background: rgb(240, 240, 240);
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1%;
+    margin-bottom: 10px;
+    border: silver 1px solid;
+}
+
+#pagina3{
+    background: rgb(253, 253, 253);
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1%;
+    margin-bottom: 10px;
+    border: silver 1px solid;
+    
+}
+
+#pagina4{
+    background: rgb(240, 240, 240);
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 1%;
+    margin-bottom: 10px;
+    border: silver 1px solid;
+
 }
 
 .refe{
@@ -109,4 +152,47 @@ h1{
     margin-bottom: 50px;
     text-align: justify;
     font-size: 15px;
+}
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px 10px;
+    border-color: 3px solid black;  
+    background-color: black;
+    box-shadow: black 2px 2px 5px;
+}
+
+form{
+    font-size: 16px;
+    background: silver;
+    max-width: 600px;
+    margin:0 auto;
+    padding: 10px 10px 10px 10px;
+}
+
+input{
+    padding: 10px;
+    width: 470px;
+}
+
+textarea{
+        padding: 10px;
+        width: 470px;
+        height: 150px;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#enviar{
+    height: 40px;
+    width: 150px;
+    background: rgb(230, 230, 230);
+    cursor: pointer;
+    background: brown;
+    color: #fff;   
 }
